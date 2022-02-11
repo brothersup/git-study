@@ -6,6 +6,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+/**
+ *
+ * HelloController: mvc, template engine, controller와 view resolver 동작방식 이해
+ *
+ * @author brothersup
+ * @version 1.0.0
+ * 작성일 2022/02/11
+ */
 @Controller
 public class HelloController {
 
