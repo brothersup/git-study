@@ -5,6 +5,14 @@ import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.springframework.stereotype.Component;
 
+/**
+ *
+ * TimeTraceAop: 메소드별 실행에 걸린 시간 체크
+ *
+ * @author brothersup
+ * @version 1.0.0
+ * 작성일 2022/02/12
+ */
 @Aspect
 @Component
 public class TimeTraceAop {
