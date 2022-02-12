@@ -10,6 +10,14 @@ import org.springframework.context.annotation.Configuration;
 import javax.persistence.EntityManager;
 import javax.sql.DataSource;
 
+/**
+ *
+ * SpringConfig: IoC Container(DI Container)
+ *
+ * @author brothersup
+ * @version 1.0.0
+ * 작성일 2022/02/12
+ */
 @Configuration
 public class SpringConfig {
 
